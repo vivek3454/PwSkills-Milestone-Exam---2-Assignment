@@ -88,7 +88,7 @@ addBlog.onclick = () => {
     const content = document.querySelector('#post');
     const url = document.querySelector('#url');
 
-    if (!title || !description || content || !url) {
+    if (!title || !description || !content || !url) {
         alert('All field required')
         return
     }

@@ -13,7 +13,7 @@ const showBlogPost = ()=>{
                 </p>
             </div>
             <div class="img-container">
-                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="">
+                <img src=${blogPost.url} alt=${blogPost.title}>
             </div>
         </div>
         <article>
