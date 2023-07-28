@@ -34,9 +34,12 @@ nav div > button {
 }
 
 .blogs {
-    display: flex;
+    /* display: flex; */
     gap: 30px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-items: center;
     margin-top: 80px;
 }
 
@@ -139,7 +142,7 @@ nav div > button {
     resize: none;
 }
 
-form > button{
+.modal > button{
     width: 100%;
     height: 40px;
     border-radius: 10px;
@@ -190,5 +193,36 @@ article{
     max-width: 1150px;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+
+@media screen and (max-width: 980px) {
+    .header{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .img-container{
+        width: 100%;
+        height: 240px;
+    }
+    #blog-page{
+        padding: 10px;
+    }
+    body{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .blogs{
+        gap: 0px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .img-container{
+        height: 160px;
+    }
 }
 

@@ -18,7 +18,7 @@ const showBlogPost = ()=>{
         </div>
         <article>
             <p>
-            ${blogPost.post}
+            ${blogPost.content}
             </p>
         </article>
     `;
