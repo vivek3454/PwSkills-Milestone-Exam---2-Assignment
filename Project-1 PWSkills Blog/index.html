@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/846a5b7040.js" crossorigin="anonymous"></script>
     <title>PWSkills Blog</title>
 </head>
 
@@ -12,7 +13,7 @@
     <nav>
         <h1>PWSkills Blog</h1>
         <div>
-            <button id="create-blog">+</button>
+            <button id="create-blog"><i class="fa-solid fa-plus"></i></button>
         </div>
     </nav>
     <main>
@@ -55,10 +56,10 @@
 
         <div class="modal-container">
             <div class="modal">
-                <span>x</span>
+                <span><i class="fa-solid fa-xmark"></i></span>
                 <form action="">
                     <div class="input">
-                        <input type="text" required placeholder="Enter Blog Title :" name="" id="">
+                        <input type="text" required placeholder="Enter Blog Post Url :" name="url" id="url">
                     </div>
                     <div class="input">
                         <input type="text" required placeholder="Enter Blog Title :" name="title" id="title">
