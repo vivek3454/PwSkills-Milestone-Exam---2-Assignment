@@ -1,7 +1,7 @@
 
 # Movie Search Web App
 
-![project image](image.png)
+![project image](./image.png)
 
 ## Overview
 
