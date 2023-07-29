@@ -5,7 +5,7 @@
 
 ## Overview
 
-The [Movie Search Web App](https://www.example.com) is a simple and user-friendly application that allows users to search for movies using an input box. Upon receiving the user's input, the application fetches movie data from the OMDB API based on the specific query and displays the relevant movie details such as movie title, poster image, genre, and plot.
+The [Movie Search Web App](https://movie-search-website-js.netlify.app/) is a simple and user-friendly application that allows users to search for movies using an input box. Upon receiving the user's input, the application fetches movie data from the OMDB API based on the specific query and displays the relevant movie details such as movie title, poster image, genre, and plot.
 
 ## Features
 
